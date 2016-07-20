@@ -1,0 +1,366 @@
+/*  
+Theme Name: Corporate
+Description: The Corporate wordpress theme. Cross-browser, XHTML Strict v1.0 and CSS 2.1 valid. Great for businesses, corporate blogs and web sites. Comes with customizable intro text, for information read Instructions.txt. NOTICE: This version contains a few critical bug fixes, so make sure you have the latest version.
+Version: 1.4.1
+Author: Ori Pearl
+Author URI: http://www.oripearl.com/
+Tags: business, corporate, xhtml, css, simple, clean, clear, white, grey, orange, fixed width, intro, banner, widget-ready, widgets, right sidebar, two columns, valid XHTML, valid CSS, blueprint, blueprintcss
+*/
+
+body {
+	background: url('images/bg.gif') 0 0; 
+	font-family:Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	color: #525252;
+}
+h2, a {
+	color: #525252;
+}
+pre, code {
+	white-space: normal;
+}
+#top {
+	text-align: right;
+	height: 24px;
+}
+#top .menu {
+	padding-top: 7px;
+}
+#top .menu li {
+	display: inline;
+	list-style-type: none;
+	padding-right: 20px;
+}
+#top .menu a {
+	text-decoration: none;
+	color: #fff;
+}
+#top .menu a:hover {
+	color: #000;
+}
+#contenttop {
+	background: transparent url('images/topbg.png') no-repeat 0 0;
+	height: 37px;
+}
+#contentwrapper {
+	background: transparent url('images/contentbg.png') repeat-y 0 0;
+}
+#header {
+		height: auto;
+}
+#header #title {
+}
+#header #title .logo {
+	float: left;
+}
+#header #title #blogtitle {
+	margin-left: 68px;
+}
+#header #title h1 {
+	font-size: 24px;
+	font-weight: bold;
+	color: #525252;
+	margin-bottom: 5px;
+}
+#header #title h2 {
+	font-size: 14px;
+	color: #525252;
+}
+#header search-inputbar {
+	margin-top: 20px;
+}
+#introcontainer {
+	margin-top: 40px;
+}
+#intro {
+	height: 200px;
+	background: url('images/introbg.jpg') no-repeat 0 0;
+	margin-left: 7px;
+}
+#intro #introtext {
+	float: left;
+	height: 165px;
+	margin: 20px auto auto 20px;
+	overflow: hidden;
+}
+#intro #introtext h1 {
+	font-size: 18px;
+	color: #00599d;
+	margin-bottom: 16px;
+}
+#intro #introtext p {
+	font-size: 16px;
+}
+#intro #introicon {
+	float: right;
+	margin: 35px 50px;
+}
+#posts {
+	background: #fafafa;
+	border: solid 1px #eeeeee;
+	margin: 40px 5px 20px 5px;
+	padding: 15px;
+	_padding: 7px;
+}
+#posts .postheader .commentcount {
+	width: 27px;
+	line-height: 12px;
+	float: left;
+	text-align: center;
+	padding-right: 10px;
+}
+#posts .postheader .commentcount a {
+	text-decoration: none;
+	color: #4884bc;
+}
+#posts .postheader .posttitle {
+	line-height: 20px;
+}
+#posts .postheader .posttitle h2 {
+	font-family: "Arial Black", Gadget, sans-serif;
+	font-size: 18px;
+	padding: 0;
+	margin: 0;
+}
+#posts .postheader h2 a {
+	text-decoration: none;
+}
+#posts .postheader .posttitle .postmeta {
+	font-family: "Arial Black", Gadget, sans-serif;
+	font-size: 11px; color:#878789;
+}
+
+#posts .postheader .posttitle .postmeta a{
+	font-family: "Arial Black", Gadget, sans-serif;
+	font-size: 11px; color:#0E73B8;
+}
+#posts .postheader .posttitle .postmeta a:hover{
+	font-family: "Arial Black", Gadget, sans-serif;
+	font-size: 11px; color:#878789;
+}
+#posts .postcontent {
+	margin-top: 20px;
+	line-height: 17px;
+}
+#post .postcontent p {
+	margin-bottom: 10px;
+}
+#posts .posttags, #posts .posttags a {
+	color:#0E73B8;
+	clear:both;
+	margin-top: 20px;
+	text-align: right; font-size:12px;
+}
+.commentbox {
+	background: #fff;
+	border: solid 1px #eeeeee;
+	margin: 10px 5px 20px 5px;
+	padding: 15px;
+	_padding: 7px;
+}
+.commentmeta .avatar {
+	float: left;
+	padding-right: 6px;
+	_padding-right: 3px;
+}
+.commenttext {
+	clear: both;
+	margin-top: 10px;
+}
+.commentform input {
+	padding: 0;
+	margin: 0;
+	line-height: 0;
+}
+#commentform .text {
+	width: 300px;
+	margin: 0 0 15px 0;
+}
+#commentform textarea {
+	width:450px;
+	height:150px;
+	margin:0;
+	padding:5px;
+}
+.navlinks {
+	margin: 0px 5px 40px 5px;
+}
+.navlinks a {
+	text-decoration: none;
+}
+.navlinks img {
+	margin-right: 5px;
+}
+#sidebar {
+	background: #fafafa;
+	border: solid 1px #eeeeee;
+	padding: 17px;
+	margin: 40px 5px 20px 5px;
+	_margin: 40px 0px 20px 0px;
+}
+#wrapbox {
+	background: #fafafa;
+	width:229px;
+}
+#wrapbox .sidebarbox ,.recentcomments {
+	line-height: 20px;
+	margin-bottom: 15px;
+	padding-bottom:38px;
+    background: url("images/wg-bottom.gif") repeat-x scroll center bottom transparent;
+
+}
+#wrapbox .sidebarbox h3 {
+	font-size: 18px;
+	color: #4D4D4F;
+	margin:0px;
+	margin-bottom: 10px;
+}
+#wrapbox .sidebarbox a {
+	text-decoration: none;
+}
+#wrapbox .sidebarbox ul {
+	list-style-type: none;
+margin:0px; padding:0px;
+}
+#wrapbox .sidebarbox ul li {
+	border-bottom: 1px solid #E8E8E8;
+	float: none;
+	padding-bottom: 5px !important;
+	width: auto;
+}
+#wrapbox .sidebarbox ul li a {
+	background: url("images/ico-meta.gif") no-repeat scroll 0 8px transparent;
+	line-height: 29px; font-size:13px;
+	padding: 4px 0 4px 9px; margin-left:4px;
+}
+
+
+
+#wrapbox .sidebarbox .recentcomments h3 {
+	font-size: 14px;
+	color: #4D4D4F;
+	margin:0px;
+	margin-bottom: 10px;
+}
+#wrapbox  .sidebarbox .recentcomments a {
+	text-decoration: none; background:none;
+	margin:0px; padding:0px;
+}
+#wrapbox .sidebarbox .recentcomments ul {
+	list-style-type: none;
+	text-indent: none; margin:0px; padding:0px;
+}
+#wrapbox .sidebarbox  .recentcomments ul li {
+	border-bottom: 1px solid #E8E8E8;
+	float: none;
+	padding-bottom: 5px !important;
+	width: auto;
+}
+#wrapbox  .sidebarbox  .recentcomments ul li a {
+	line-height: 16px;
+	padding: 4px 0 4px 15px; margin-left:19px; background:none;
+}
+
+
+
+#wrapbox .sidebarbox .pages ul {
+	text-indent: -3em;
+}
+
+
+#footer {
+	height: 52px;
+	background: url('images/bottombg.png') no-repeat 0 0;
+}
+
+#footer .span-24{  width:231px; margin-left:387px; font-size:11px; margin-top:60px;}
+#footer .span-22{  width:331px; margin-left:335px; font-size:10px;}
+
+#wrapbox ul li.widget {
+	background: url("images/wg-bottom.gif") repeat-x scroll center bottom transparent;
+	float: left;
+	margin-bottom: 15px;
+	padding: 10px 10px 30px;
+	width: 95%;
+}
+#wrapbox .searchform {
+	width:200px;
+	float:left;
+/*	background: url("images/wg-bottom.gif") repeat-x scroll center bottom transparent;
+*/	margin-bottom: 15px;
+	padding-bottom:30px;
+}
+#wrapbox .searchform #searchbox {
+	float: left;
+	background: #f1f1f1;
+	border: solid 1px #e3e3e3;
+	width: 120px;
+	height: 14px;
+	font-size: 11px;
+}
+#wrapbox .searchform #search {
+	background: transparent url(images/search.png) no-repeat scroll 0 0;
+	border: medium none;
+	color: #9499A1;
+	float: left;
+	font-family: Arial;
+	font-size: 13px;
+	height: 26px;
+	margin: 0;
+	padding: 5px 10px 0 38px;
+	width: 176px;
+}
+#wrapbox .searchform #search-submit {
+	border: 0 none;
+	float: right;
+	height: 30px;
+	margin-top: -2px;
+	width: 73px;
+background: transparent url(images/submit.png) no-repeat scroll 0 0;
+
+}
+#wrapbox .searchform #searchbutton {
+	height: 18px;
+	width: 18px;
+	margin-left: 6px;
+	border: none;
+	cursor: pointer;
+	background: url('images/searchbutton.jpg') no-repeat 0 0;
+}
+/*** Wordpress ***/
+.aligncenter, div.aligncenter {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+.alignleft {
+	float: left;
+	margin: 0 10px 10px 0;
+}
+.alignright {
+	float: right;
+	margin: 0 0 10px 10px;
+}
+.wp-caption {
+	background: #fafafa;
+	border: solid 1px #eeeeee;
+	text-align: center;
+	padding-top: 4px;
+}
+.wp-caption img {
+	float: none;
+	margin: 0;
+	padding: 0;
+	border: 0 none;
+}
+.wp-caption p.wp-caption-text {
+	font-size: 11px;
+	line-height: 17px;
+	padding: 0px;
+	margin: 0px;
+}
+#contentwrapper .span-16 {
+	width:600px;
+	float:left;
+	min-height:500px; margin-left:25px;
+}

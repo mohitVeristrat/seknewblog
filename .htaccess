@@ -1,0 +1,12 @@
+# BEGIN WordPress
+<IfModule mod_rewrite.c>
+RewriteEngine On
+php_value allow_url_fopen On
+RewriteBase /git/shaadiekhasall/blog-wedding-planning-invitation-wordings/
+RewriteRule ^index\.php$ - [L]
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule . /git/shaadiekhasall/blog-wedding-planning-invitation-wordings/index.php [L]
+</IfModule>
+
+# END WordPress

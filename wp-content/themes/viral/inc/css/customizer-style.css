@@ -1,0 +1,19 @@
+/*Additional Styles*/
+.viral-info{
+  margin-top: 10px;
+}
+
+.viral-info a{
+  background: #0073aa;
+  padding: 5px 10px;
+  color: #FFF;
+  text-align: center;
+  display: block;
+  margin-top: 5px;
+  line-height: 1.2;
+  box-shadow: none;
+}
+
+.viral-info a:hover{
+  background: #000;
+}
